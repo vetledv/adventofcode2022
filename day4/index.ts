@@ -34,7 +34,7 @@ const partTwo = () => {
     const overlappingRanges = rangePairs.filter((pair) =>
         isRangesOverlapping(pair)
     );
-    console.log("Part 1: ", overlappingRanges.length);
+    console.log("Part 2: ", overlappingRanges.length);
 };
 
 partOne();
